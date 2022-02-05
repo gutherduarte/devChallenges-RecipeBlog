@@ -1,0 +1,320 @@
+body {
+    width: auto;
+    margin: 0;
+    height: auto;
+}
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-recipe {
+    width: 60%;
+    height: 100%;
+}
+.cheesecake-tittle {
+    width: 100%;
+    color: #000000;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 64px;
+    white-space: nowrap;
+}
+.cheesecake-tittle h1 {
+    margin-bottom: 0;
+}
+.cheesecake-description {
+    display: flex;
+    width: 100%;
+}
+.cheesecake-description h3 {
+    margin-top: 0;
+    margin-left: 2%;
+    color: #4F4F4F;
+    white-space: pre-line;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 0.72em;
+}
+.cheesecake-description img {
+    height: 100%;
+}
+.cheesecake-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+}
+.cheesecake-image img {
+    width: 100%;
+    height: 98%;
+}
+.details-recipe {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+}
+.cooking-container {
+    width: 25%;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0.6em;
+}
+.cooking {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+.cooking h6 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    margin: 0;
+    font-size: 0.6em;
+}
+.time h5 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: #333333;
+    margin-top: 8%;
+    font-size: 0.8em;
+}
+.yields {
+    height: 25%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.time {
+    height: 75%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.yields h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    color: #F2994A;
+    margin-top: 8%;
+    font-size: 0.8em;
+}
+.prep-time, .cook-time, .total-time-container {
+    display: flex;
+    justify-content: space-between;
+}
+.quantity, .prep-total-time, .cook-total-time, .total-time {
+    width: 65%;
+}
+.material-icons.restaurant_menu {
+    color: #F2994A;
+    font-size: 36px;
+}
+.material-icons.access_time {
+    font-size: 36px;
+    color: #4F4F4F;;
+}
+.ingredients {
+    width: 75%;
+}
+.ingredients-textheader {
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #333333;
+    font-size: 1.2em;
+}
+.ingredients-textheader h3 {
+    margin-top: 0;
+}
+.recipe-one h4, .recipe-two h4 {
+    font-family: "Playfair Display", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: #333333;
+    font-size: 0.95em;
+}
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: auto;
+    text-align: center;
+    color: gray;
+    margin-bottom: 1%;
+}
+.footer a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ingredients-recipe .steps {
+    display: flex;
+    justify-content: space-between;
+}
+.ingredients-recipe .steps label {
+    width: 93%;
+    white-space: pre-line;
+    font-size: 0.9em;
+    margin-bottom: 2.5%;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+}
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #000000;
+    white-space: pre-line;
+    margin-top: 0;
+    width: 91%;
+}
+.instructions-tittle {
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #333333;
+    font-size: 1.2em;
+}
+.rectangle {
+    margin-top: 1em;
+    background-color: #F2994A;
+    border-radius: 0.4em;
+    width: 7%;
+    text-align: center;
+    height: 1.8em;
+    color: #FFFFFF;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.source-link {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    color: #BDBDBD;
+    margin-bottom: 4em;
+    margin-top: 1em;
+}
+.source-link a {
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .info-recipe {
+        width: 94%;
+        height: 100%;
+    }
+    .cheesecake-tittle {
+        width: 100%;
+        font-size: 0.8em;
+        white-space: nowrap;
+    }
+    .cheesecake-description {
+        width: 95%;
+        margin-bottom: 2%;
+    }
+    .cheesecake-description h3 {
+        margin-left: 3%;
+        white-space: normal;
+        font-size: 0.8em;
+    }
+    .cheesecake-image img {
+        border-radius: 0.8em;
+    }
+    .details-recipe {
+        width: 94%;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+    .cooking-container {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+        border-radius: none;
+        margin-bottom: 4%;
+    }
+    .cooking {
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+    }
+    .yields {
+        width: 30%;
+        height: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .time {
+        width: 90%;
+        height: 60%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .quantity, .prep-total-time, .cook-total-time, .total-time {
+        width: 70%;
+    }
+    .ingredients {
+        width: 100%;
+    }
+    .ingredients-textheader {
+        font-size: 1.3em;
+    }
+    .recipe-one h4, .recipe-two h4 {
+        font-size: 1.2em;
+    }
+
+    
+    .ingredients-recipe .steps label {
+        width: 93%;
+        white-space: normal;
+        font-size: 0.93em;
+        margin-bottom: 2.5%;
+    }
+    .paragraph p {
+        white-space: normal;
+        width: 91%;
+    }
+    .instructions-tittle {
+        font-size: 1.3em;
+    }
+    .rectangle {
+        margin-top: 0;
+        height: 1.6em;
+    }
+    .source-link {
+        font-size: 0.85em;
+        white-space: pre-line;
+    }
+}
